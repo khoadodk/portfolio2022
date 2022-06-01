@@ -7,9 +7,11 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <footer>
+      {/* eslint-disable-next-line */} 
       <a href="#" className="footer__logo">Khoa Do</a>
 
       <ul className="permalinks">
+        {/* eslint-disable-next-line */} 
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
