@@ -17,35 +17,35 @@ const data = [
   },
   {
     id:2,
-    image: IMG1,
+    image: IMG2,
     title:"This is my porfolio title",
     github: 'https://github.com',
     demo: 'https://google.com'
   },
   {
     id:3,
-    image: IMG1,
+    image: IMG3,
     title:"This is my porfolio title",
     github: 'https://github.com',
     demo: 'https://google.com'
   },
   {
     id:4,
-    image: IMG1,
+    image: IMG4,
     title:"This is my porfolio title",
     github: 'https://github.com',
     demo: 'https://google.com'
   },
   {
     id:5,
-    image: IMG1,
+    image: IMG5,
     title:"This is my porfolio title",
     github: 'https://github.com',
     demo: 'https://google.com'
   },
   {
     id:6,
-    image: IMG1,
+    image: IMG6,
     title:"This is my porfolio title",
     github: 'https://github.com',
     demo: 'https://google.com'

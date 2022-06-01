@@ -6,6 +6,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import "./Testimonials.css";
 import IMG1 from '../../assets/avatar1.jpg';
+import IMG2 from '../../assets/avatar2.jpg';
+import IMG3 from '../../assets/avatar3.jpg';
 
 const data = [
   {
@@ -17,13 +19,13 @@ const data = [
   {
     id: 2,
     name: 'Emma Watson',
-    avatar: IMG1,
+    avatar: IMG2,
     review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic officiis non possimus, at voluptatum temporibus animi sint voluptates velit quia.'
   },
   {
     id: 3,
     name: 'Emma Watson',
-    avatar: IMG1,
+    avatar: IMG3,
     review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic officiis non possimus, at voluptatum temporibus animi sint voluptates velit quia.'
   }
 ]
