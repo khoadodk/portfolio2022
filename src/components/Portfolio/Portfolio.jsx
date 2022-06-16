@@ -1,54 +1,55 @@
 import React from 'react';
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import IMG1 from "../../assets/portfolio1.JPG"
+import IMG2 from "../../assets/portfolio2.JPG"
+import IMG3 from "../../assets/portfolio3.JPG"
+import IMG4 from "../../assets/portfolio4.JPG"
+import IMG5 from "../../assets/portfolio5.JPG"
+import IMG6 from "../../assets/portfolio6.png"
+// 4 : 3 image
 
 const data = [
   {
     id:1,
     image: IMG1,
-    title:"This is my porfolio title",
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title:"Newsletter email template",
+    github: 'https://newssletter-email.netlify.app',
+    demo: 'https://github.com/khoadodk/newsletter-email'
   },
   {
     id:2,
     image: IMG2,
-    title:"This is my porfolio title",
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title:"Shopping Cart email template",
+    github: 'https://github.com/khoadodk/cart-email',
+    demo: 'https://cart-email.netlify.app'
   },
   {
     id:3,
     image: IMG3,
-    title:"This is my porfolio title",
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title:"HTML CSS JavaScript",
+    github: 'https://github.com/khoadodk/cosmetics',
+    demo: 'https://cosmeticcs.netlify.app/'
   },
   {
     id:4,
     image: IMG4,
-    title:"This is my porfolio title",
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title:"Wordpress Theme from scratch",
+    github: 'https://github.com/khoadodk/kd-learning',
+    demo: 'https://doinvestteam.com'
   },
   {
     id:5,
     image: IMG5,
-    title:"This is my porfolio title",
+    title:"React Portfolio",
     github: 'https://github.com',
     demo: 'https://google.com'
-  },
+  }, 
   {
     id:6,
     image: IMG6,
-    title:"This is my porfolio title",
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title:"NextJS Headless Shopify",
+    github: 'https://github.com/khoadodk/next-shopify',
+    demo: 'https://next-shopify-ruby.vercel.app'
   }
 ]
 
