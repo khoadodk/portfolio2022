@@ -5,7 +5,7 @@ import IMG2 from "../../assets/portfolio2.JPG"
 import IMG3 from "../../assets/portfolio3.JPG"
 import IMG4 from "../../assets/portfolio4.JPG"
 import IMG5 from "../../assets/portfolio5.JPG"
-import IMG6 from "../../assets/portfolio6.png"
+import IMG6 from "../../assets/portfolio6.JPG"
 // 4 : 3 image
 
 const data = [
@@ -28,7 +28,7 @@ const data = [
     image: IMG3,
     title:"HTML CSS JavaScript",
     github: 'https://github.com/khoadodk/cosmetics',
-    demo: 'https://cosmeticcs.netlify.app/'
+    demo: 'https://cosmeticcs.netlify.app'
   },
   {
     id:4,
