@@ -6,22 +6,23 @@ import IMG3 from "../../assets/portfolio3.png"
 import IMG4 from "../../assets/portfolio4.png"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.png"
+import IMG7 from "../../assets/portfolio7.png"
 // 4 : 3 image
 
 const data = [
   {
-    id:1,
-    image: IMG1,
-    title:"Newsletter email template",
-    github: 'https://newssletter-email.netlify.app',
-    demo: 'https://github.com/khoadodk/newsletter-email'
+    id:7,
+    image: IMG7,
+    title:"Shopify Theme",
+    github: 'https://github.com/khoadodk/fashionica',
+    demo: 'https://fashionica-kd.myshopify.com'
   },
   {
-    id:2,
-    image: IMG2,
-    title:"Shopping Cart email template",
-    github: 'https://github.com/khoadodk/cart-email',
-    demo: 'https://cart-email.netlify.app'
+    id:6,
+    image: IMG6,
+    title:"NextJS Headless Shopify",
+    github: 'https://github.com/khoadodk/next-shopify',
+    demo: 'https://next-shopify-ruby.vercel.app'
   },
   {
     id:3,
@@ -43,13 +44,20 @@ const data = [
     title:"React Portfolio",
     github: 'https://github.com',
     demo: 'https://google.com'
-  }, 
+  },
   {
-    id:6,
-    image: IMG6,
-    title:"NextJS Headless Shopify",
-    github: 'https://github.com/khoadodk/next-shopify',
-    demo: 'https://next-shopify-ruby.vercel.app'
+    id:1,
+    image: IMG1,
+    title:"Newsletter email template",
+    github: 'https://newssletter-email.netlify.app',
+    demo: 'https://github.com/khoadodk/newsletter-email'
+  },
+  {
+    id:2,
+    image: IMG2,
+    title:"Shopping Cart email template",
+    github: 'https://github.com/khoadodk/cart-email',
+    demo: 'https://cart-email.netlify.app'
   }
 ]
 
