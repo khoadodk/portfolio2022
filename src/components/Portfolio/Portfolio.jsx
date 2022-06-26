@@ -1,12 +1,11 @@
 import React from 'react';
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.png"
-import IMG2 from "../../assets/portfolio2.png"
 import IMG3 from "../../assets/portfolio3.png"
 import IMG4 from "../../assets/portfolio4.png"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.png"
 import IMG7 from "../../assets/portfolio7.png"
+import IMG8 from "../../assets/portfolio8.png"
 // 4 : 3 image
 
 const data = [
@@ -32,9 +31,16 @@ const data = [
     demo: 'https://cosmeticcs.netlify.app'
   },
   {
+    id:8,
+    image: IMG8,
+    title:"Wordpress Plugin",
+    github: 'https://github.com/khoadodk/kd-slider',
+    demo: 'https://doinvestteam.com'
+  },
+  {
     id:4,
     image: IMG4,
-    title:"Wordpress Theme from scratch",
+    title:"Wordpress Theme",
     github: 'https://github.com/khoadodk/kd-learning',
     demo: 'https://doinvestteam.com'
   },
@@ -45,20 +51,20 @@ const data = [
     github: 'https://github.com',
     demo: 'https://google.com'
   },
-  {
-    id:1,
-    image: IMG1,
-    title:"Newsletter email template",
-    github: 'https://newssletter-email.netlify.app',
-    demo: 'https://github.com/khoadodk/newsletter-email'
-  },
-  {
-    id:2,
-    image: IMG2,
-    title:"Shopping Cart email template",
-    github: 'https://github.com/khoadodk/cart-email',
-    demo: 'https://cart-email.netlify.app'
-  }
+  // {
+  //   id:1,
+  //   image: IMG1,
+  //   title:"Newsletter email",
+  //   github: 'https://newssletter-email.netlify.app',
+  //   demo: 'https://github.com/khoadodk/newsletter-email'
+  // },
+  // {
+  //   id:2,
+  //   image: IMG2,
+  //   title:"Shopping Cart email",
+  //   github: 'https://github.com/khoadodk/cart-email',
+  //   demo: 'https://cart-email.netlify.app'
+  // }
 ]
 
 const Portfolio = () => {
