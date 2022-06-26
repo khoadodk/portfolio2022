@@ -49,7 +49,7 @@ const data = [
     image: IMG5,
     title:"React Portfolio",
     github: 'https://github.com',
-    demo: 'https://google.com'
+    demo: 'https://khoado.dev'
   },
   // {
   //   id:1,
