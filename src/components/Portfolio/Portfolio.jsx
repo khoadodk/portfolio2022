@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Portfolio.css";
+import IMG1 from "../../assets/portfolio1.png"
+import IMG2 from "../../assets/portfolio2.png"
 import IMG3 from "../../assets/portfolio3.png"
 import IMG4 from "../../assets/portfolio4.png"
 import IMG5 from "../../assets/portfolio5.png"
@@ -51,20 +53,20 @@ const data = [
     github: 'https://github.com',
     demo: 'https://khoado.dev'
   },
-  // {
-  //   id:1,
-  //   image: IMG1,
-  //   title:"Newsletter email",
-  //   github: 'https://newssletter-email.netlify.app',
-  //   demo: 'https://github.com/khoadodk/newsletter-email'
-  // },
-  // {
-  //   id:2,
-  //   image: IMG2,
-  //   title:"Shopping Cart email",
-  //   github: 'https://github.com/khoadodk/cart-email',
-  //   demo: 'https://cart-email.netlify.app'
-  // }
+  {
+    id:1,
+    image: IMG1,
+    title:"Newsletter email",
+    github: 'https://newssletter-email.netlify.app',
+    demo: 'https://github.com/khoadodk/newsletter-email'
+  },
+  {
+    id:2,
+    image: IMG2,
+    title:"Shopping Cart email",
+    github: 'https://github.com/khoadodk/cart-email',
+    demo: 'https://cart-email.netlify.app'
+  }
 ]
 
 const Portfolio = () => {
