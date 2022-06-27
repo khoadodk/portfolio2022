@@ -30,6 +30,12 @@
     margin-bottom: 1rem;
 }
 
+.category {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
 
 /* ===================== MEDIA QUERIES ======================= */
 @media screen and (max-width: 1024px) {
@@ -37,6 +43,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem
     }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -44,4 +51,8 @@
         grid-template-columns: 1fr;
         gap: 1.5rem
     }
+    .category {
+        flex-direction: column;
+        align-items: center;
+    }   
 }
