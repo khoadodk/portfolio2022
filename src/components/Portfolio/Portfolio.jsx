@@ -23,9 +23,9 @@ const data = [
   {
     id:9,
     image: IMG9,
-    title:"Wordpress Theme",
+    title:"Wordpress Theme w/ ACF",
     github: 'https://github.com/khoadodk/marshmallow',
-    demo: 'http://khoado.shop',
+    demo: 'http://4ucrafts.com',
     category: "wordpress"
   },
   {
