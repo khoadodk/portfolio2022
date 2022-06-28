@@ -9,6 +9,7 @@ import IMG6 from "../../assets/portfolio6.png"
 import IMG7 from "../../assets/portfolio7.png"
 import IMG8 from "../../assets/portfolio8.png"
 import IMG9 from "../../assets/portfolio9.png"
+import IMG10 from "../../assets/portfolio10.png"
 // 4 : 3 image
 
 const data = [
@@ -48,8 +49,16 @@ const data = [
     id:5,
     image: IMG5,
     title:"React Portfolio",
-    github: 'https://github.com',
+    github: 'https://github.com/khoadodk/portfolio2022',
     demo: 'https://khoado.dev',
+    category: "react"
+  },
+  {
+    id:10,
+    image: IMG10,
+    title:"React Redux Movie API",
+    github: 'https://github.com/khoadodk/shownima',
+    demo: 'https://d31nd2zfb66cta.cloudfront.net',
     category: "react"
   },
   {
