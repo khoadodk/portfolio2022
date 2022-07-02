@@ -44,13 +44,97 @@ header {
     overflow: hidden;
 }
 
-.scroll__down {
+.scrollDown {
+    position: relative;
+    float: right;
+}
+
+.scrollDown__wheel {
+    height: 42px;
+    width: 24px;
+    border-radius: 10px;
+    border: 2px solid var(--primary);
+}
+
+.scrollDown__wheel--inner {
     position: absolute;
-    right: -2.3rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1.5rem;
-    margin-top: 3rem;
+    left: 10px;
+    margin-top: 5px;
+    width: 4px;
+    height: 4px;
+    background: var(--primary);
+    border-radius: 50%;
+    ;
+    animation: movingwheel 0.5s linear infinite;
+}
+
+
+.scrollDown__arrows {
+    position: absolute;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollDown__arrow {
+    width: 15px;
+    height: 15px;
+    border-right: 2px solid var(--primary);
+    ;
+    border-bottom: 2px solid var(--primary);
+    ;
+    transform: rotate(45deg);
+    animation: movingArrows 1s infinite;
+    animation-direction: alternate;
+}
+
+.scrollDown:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.scrollDown:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.scrollDown:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes movingwheel {
+    0% {
+        top: 1px
+    }
+
+    25% {
+        top: 2px
+    }
+
+    50% {
+        top: 3px
+    }
+
+    75% {
+        top: 2px
+    }
+
+    100% {
+        top: 1px
+    }
+}
+
+@keyframes movingArrows {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* ===================== MEDIA QUERIES ======================= */

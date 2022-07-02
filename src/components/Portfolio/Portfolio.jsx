@@ -5,7 +5,7 @@ import IMG2 from "../../assets/portfolio2.png"
 import IMG3 from "../../assets/portfolio3.png"
 import IMG4 from "../../assets/portfolio4.png"
 import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.png"
+// import IMG6 from "../../assets/portfolio6.png"
 import IMG7 from "../../assets/portfolio7.png"
 import IMG8 from "../../assets/portfolio8.png"
 import IMG9 from "../../assets/portfolio9.png"
@@ -69,14 +69,14 @@ const data = [
     demo: 'https://fashionica-kd.myshopify.com',
     category: "shopify"
   },
-  {
-    id:6,
-    image: IMG6,
-    title:"NextJS Headless Shopify",
-    github: 'https://github.com/khoadodk/next-shopify',
-    demo: 'https://next-shopify-ruby.vercel.app',
-    category: "shopify"
-  },
+  // {
+  //   id:6,
+  //   image: IMG6,
+  //   title:"NextJS Headless Shopify",
+  //   github: 'https://github.com/khoadodk/next-shopify',
+  //   demo: 'https://next-shopify-ruby.vercel.app',
+  //   category: "shopify"
+  // },
   {
     id:1,
     image: IMG1,
