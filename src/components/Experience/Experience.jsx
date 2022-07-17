@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Experience.css"
+import './Experience.css';
 // import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Experience = () => {
@@ -10,49 +10,44 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
+          <h3>Design Tools</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <h4>Figma</h4>
+            </article>
+            <article className="experience__details">
+              <h4>Photoshop</h4>
+            </article>
+          </div>
+        </div>
+
+        <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              
-                <h4>HTML</h4>
-                
+              <h4>HTML</h4>
             </article>
             <article className="experience__details">
-
-                <h4>CSS</h4>
-
+              <h4>CSS</h4>
             </article>
             <article className="experience__details">
-
-                <h4>Javascript</h4>
-
+              <h4>Javascript</h4>
             </article>
             <article className="experience__details">
-
-                <h4>GSAP - Green Sock</h4>
-
+              <h4>GSAP</h4>
             </article>
             <article className="experience__details">
-
-                <h4>Bootstrap</h4>
-
+              <h4>Bootstrap</h4>
             </article>
             <article className="experience__details">
-
-                <h4>Tailwind</h4>
-
+              <h4>Tailwind</h4>
             </article>
             <article className="experience__details">
-
-                <h4>React</h4>
-
+              <h4>React</h4>
             </article>
             <article className="experience__details">
-
-                <h4>GraphQL</h4>
-
+              <h4>GraphQL</h4>
             </article>
-            
           </div>
         </div>
 
@@ -60,40 +55,25 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-
-                <h4>Nodejs</h4>
-
+              <h4>Nodejs</h4>
             </article>
             <article className="experience__details">
-
-                <h4>PHP</h4>
-
+              <h4>PHP</h4>
             </article>
             <article className="experience__details">
-
-                <h4>Wordpress</h4>
-
-
+              <h4>Wordpress</h4>
             </article>
             <article className="experience__details">
-
-                <h4>Liquid/Shopify</h4>
-
+              <h4>Shopify</h4>
             </article>
             <article className="experience__details">
-
-                <h4>MongoDB</h4>
-
+              <h4>MongoDB</h4>
             </article>
             <article className="experience__details">
-
-                <h4>MySQL</h4>
-
+              <h4>MySQL</h4>
             </article>
             <article className="experience__details">
-
-                <h4>Firebase</h4>
-
+              <h4>Firebase</h4>
             </article>
             {/* <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -106,7 +86,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
