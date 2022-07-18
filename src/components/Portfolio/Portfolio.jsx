@@ -3,8 +3,8 @@ import './Portfolio.css';
 import IMG1 from '../../assets/portfolio1.png';
 import IMG2 from '../../assets/portfolio2.png';
 // import IMG3 from '../../assets/portfolio3.png';
-// import IMG4 from '../../assets/portfolio4.png';
-// import IMG5 from '../../assets/portfolio5.png';
+import IMG4 from '../../assets/portfolio4.png';
+import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.png';
 import IMG7 from '../../assets/portfolio7.png';
 import IMG8 from '../../assets/portfolio8.png';
@@ -40,7 +40,7 @@ const data = [
   },
   {
     id: 7,
-    image: IMG6,
+    image: IMG7,
     title: 'Landin',
     github: 'https://github.com/khoadodk/landin',
     demo: 'https://kd-landin.netlify.app',
@@ -48,20 +48,20 @@ const data = [
   },
   {
     id: 6,
-    image: IMG7,
+    image: IMG6,
     title: 'Qrispy',
     github: 'https://github.com/khoadodk/qrispy',
     demo: 'https://kd-qrispy.netlify.app',
     category: 'javascript',
   },
-  // {
-  //   id: 5,
-  //   image: IMG5,
-  //   title: 'Shopify Theme',
-  //   github: 'https://github.com/khoadodk/fashionica',
-  //   demo: 'https://fashionica-kd.myshopify.com',
-  //   category: 'shopify',
-  // },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Shopify Theme',
+    github: 'https://github.com/khoadodk/fashionica',
+    demo: 'https://fashionica-kd.myshopify.com',
+    category: 'shopify',
+  },
   {
     id: 1,
     image: IMG1,
@@ -86,14 +86,14 @@ const data = [
   //   demo: 'https://doinvestteam.com',
   //   category: 'wordpress',
   // },
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: 'Wordpress Theme',
-  //   github: 'https://github.com/khoadodk/kd-learning',
-  //   demo: 'https://doinvestteam.com',
-  //   category: 'wordpress',
-  // },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Wordpress Theme',
+    github: 'https://github.com/khoadodk/kd-learning',
+    demo: 'https://doinvestteam.com',
+    category: 'wordpress',
+  },
 ];
 
 const Portfolio = () => {
@@ -134,6 +134,18 @@ const Portfolio = () => {
           onClick={() => filterCat('email')}
         >
           Email
+        </button>
+        <button
+          className="btn btn-primary"
+          onClick={() => filterCat('shopify')}
+        >
+          Shopify
+        </button>
+        <button
+          className="btn btn-primary"
+          onClick={() => filterCat('wordpress')}
+        >
+          Wordpress
         </button>
       </div>
       <div className="container portfolio__container">

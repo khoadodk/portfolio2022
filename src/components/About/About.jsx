@@ -39,8 +39,8 @@ const About = () => {
           </div> */}
           <p className="about__content">
             I've been coding since 2018 just by accident while solving
-            an issue for the company I working for. I am hooked to it
-            ever since.
+            an issue for the company I was working for. I am hooked to
+            it ever since.
             <br />
             I love to design and build beautiful websites.
             <br />
