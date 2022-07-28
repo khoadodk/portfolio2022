@@ -5,15 +5,24 @@ import IMG2 from '../../assets/portfolio2.png';
 // import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.png';
-import IMG7 from '../../assets/portfolio7.png';
+// import IMG6 from '../../assets/portfolio6.png';
+// import IMG7 from '../../assets/portfolio7.png';
 import IMG8 from '../../assets/portfolio8.png';
 import IMG9 from '../../assets/portfolio9.png';
-import IMG10 from '../../assets/portfolio10.png';
-
+// import IMG10 from '../../assets/portfolio10.png';
+import IMG11 from '../../assets/portfolio11.png';
+import IMG12 from '../../assets/portfolio12.png';
 // 4 : 3 image
 
 const data = [
+  {
+    id: 11,
+    image: IMG11,
+    title: 'Shopify Theme',
+    github: 'https://github.com/khoadodk/shop-tailwind',
+    demo: 'https://shop-tailwind.myshopify.com',
+    category: 'shopify',
+  },
   {
     id: 8,
     image: IMG8,
@@ -31,28 +40,12 @@ const data = [
     category: 'react',
   },
   {
-    id: 10,
-    image: IMG10,
-    title: 'Photo Sharing App',
-    github: 'https://github.com/khoadodk/foto',
-    demo: 'https://kd-foto.netlify.app',
-    category: 'react',
-  },
-  {
-    id: 7,
-    image: IMG7,
-    title: 'Landin',
-    github: 'https://github.com/khoadodk/landin',
-    demo: 'https://kd-landin.netlify.app',
-    category: 'javascript',
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Qrispy',
-    github: 'https://github.com/khoadodk/qrispy',
-    demo: 'https://kd-qrispy.netlify.app',
-    category: 'javascript',
+    id: 12,
+    image: IMG12,
+    title: 'Headless Shopify',
+    github: 'https://github.com/khoadodk/next-shopify',
+    demo: 'https://next-shopify-ruby.vercel.app',
+    category: 'shopify',
   },
   {
     id: 5,
@@ -78,14 +71,6 @@ const data = [
     demo: 'https://cart-email.netlify.app',
     category: 'email',
   },
-  // {
-  //   id: 3,
-  //   image: IMG3,
-  //   title: 'Wordpress Plugin',
-  //   github: 'https://github.com/khoadodk/kd-slider',
-  //   demo: 'https://doinvestteam.com',
-  //   category: 'wordpress',
-  // },
   {
     id: 4,
     image: IMG4,
@@ -119,21 +104,9 @@ const Portfolio = () => {
         </button>
         <button
           className="btn btn-primary"
-          onClick={() => filterCat('javascript')}
-        >
-          Javascript
-        </button>
-        <button
-          className="btn btn-primary"
           onClick={() => filterCat('react')}
         >
           React
-        </button>
-        <button
-          className="btn btn-primary"
-          onClick={() => filterCat('email')}
-        >
-          Email
         </button>
         <button
           className="btn btn-primary"
@@ -146,6 +119,12 @@ const Portfolio = () => {
           onClick={() => filterCat('wordpress')}
         >
           Wordpress
+        </button>
+        <button
+          className="btn btn-primary"
+          onClick={() => filterCat('email')}
+        >
+          Email
         </button>
       </div>
       <div className="container portfolio__container">

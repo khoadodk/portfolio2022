@@ -43,7 +43,8 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--primary-variant);
     resize: none;
-    color: var(--white)
+    color: var(--white);
+    font-family: inherit;
 }
 
 /* ===================== MEDIA QUERIES ======================= */

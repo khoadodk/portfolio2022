@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-![Home Page](screenshot.png 'Home Page')
+![Home Page](screenshot.PNG 'Home Page')
 
 ## Available Commands
 

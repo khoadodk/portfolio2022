@@ -1,5 +1,5 @@
 header {
-    height: 70vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -35,11 +35,12 @@ header {
 
 .me {
     background: linear-gradient(var(--primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    width: 50%;
+    height: 80vh;
     position: absolute;
-    left: calc(50% - 11rem);
     margin-top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
 }
@@ -140,14 +141,11 @@ header {
 /* ===================== MEDIA QUERIES ======================= */
 @media screen and (max-width: 1024px) {
     header {
-        height: 60vh
+        height: 80vh
     }
 }
 
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh
-    }
 
     .header__socials,
     .scroll__down {
