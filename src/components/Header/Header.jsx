@@ -18,16 +18,16 @@ const Header = () => {
           <img src={ME} alt="me" />
         </div>
 
-        <div class="scrollDown">
+        <div className="scrollDown">
           <a href="#about">
-            <div class="scrollDown__wheel">
-              <div class="scrollDown__wheel--inner"></div>
+            <div className="scrollDown__wheel">
+              <div className="scrollDown__wheel--inner"></div>
             </div>
           </a>
-          <div class="scrollDown__arrows">
-            <span class="scrollDown__arrow"></span>
-            <span class="scrollDown__arrow"></span>
-            <span class="scrollDown__arrow"></span>
+          <div className="scrollDown__arrows">
+            <span className="scrollDown__arrow"></span>
+            <span className="scrollDown__arrow"></span>
+            <span className="scrollDown__arrow"></span>
           </div>
         </div>
       </div>
