@@ -12,9 +12,18 @@ import IMG9 from '../../assets/portfolio9.png';
 // import IMG10 from '../../assets/portfolio10.png';
 import IMG11 from '../../assets/portfolio11.png';
 import IMG12 from '../../assets/portfolio12.png';
+import IMG13 from '../../assets/portfolio13.png';
 // 4 : 3 image
 
 const data = [
+  {
+    id: 13,
+    image: IMG13,
+    title: 'WordPress Theme',
+    github: 'https://github.com/khoadodk/city-wp',
+    demo: 'http://khoado.me',
+    category: 'wordpress',
+  },
   {
     id: 11,
     image: IMG11,
@@ -74,7 +83,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Wordpress Theme',
+    title: 'WordPress Theme',
     github: 'https://github.com/khoadodk/kd-learning',
     demo: 'https://doinvestteam.com',
     category: 'wordpress',
