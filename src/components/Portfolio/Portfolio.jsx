@@ -13,17 +13,10 @@ import IMG9 from '../../assets/portfolio9.png';
 import IMG11 from '../../assets/portfolio11.png';
 import IMG12 from '../../assets/portfolio12.png';
 import IMG13 from '../../assets/portfolio13.png';
+import IMG14 from '../../assets/portfolio14.png';
 // 4 : 3 image
 
 const data = [
-  {
-    id: 13,
-    image: IMG13,
-    title: 'WordPress Theme',
-    github: 'https://github.com/khoadodk/city-wp',
-    demo: 'http://khoado.me',
-    category: 'wordpress',
-  },
   {
     id: 11,
     image: IMG11,
@@ -33,12 +26,12 @@ const data = [
     category: 'shopify',
   },
   {
-    id: 8,
-    image: IMG8,
-    title: 'K Studio',
-    github: 'https://github.com/khoadodk/k-studio',
-    demo: 'https://k-studio.netlify.app',
-    category: 'react',
+    id: 13,
+    image: IMG13,
+    title: 'WordPress Theme',
+    github: 'https://github.com/khoadodk/city-wp',
+    demo: 'http://khoado.me',
+    category: 'wordpress',
   },
   {
     id: 9,
@@ -49,11 +42,27 @@ const data = [
     category: 'react',
   },
   {
+    id: 8,
+    image: IMG8,
+    title: 'K Studio',
+    github: 'https://github.com/khoadodk/k-studio',
+    demo: 'https://k-studio.netlify.app',
+    category: 'react',
+  },
+  {
     id: 12,
     image: IMG12,
     title: 'Headless Shopify',
     github: 'https://github.com/khoadodk/next-shopify',
     demo: 'https://next-shopify-ruby.vercel.app',
+    category: 'shopify',
+  },
+  {
+    id: 14,
+    image: IMG14,
+    title: 'Shopify Theme',
+    github: 'https://github.com/khoadodk/drake-related',
+    demo: 'https://theme-related.myshopify.com',
     category: 'shopify',
   },
   {
