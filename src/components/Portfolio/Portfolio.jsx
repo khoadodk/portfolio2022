@@ -2,19 +2,16 @@ import { useState } from 'react';
 import './Portfolio.css';
 import IMG1 from '../../assets/portfolio1.png';
 import IMG2 from '../../assets/portfolio2.png';
-// import IMG3 from '../../assets/portfolio3.png';
-import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
-// import IMG6 from '../../assets/portfolio6.png';
-// import IMG7 from '../../assets/portfolio7.png';
+import IMG6 from '../../assets/portfolio6.png';
+import IMG7 from '../../assets/portfolio7.png';
 import IMG8 from '../../assets/portfolio8.png';
 import IMG9 from '../../assets/portfolio9.png';
-// import IMG10 from '../../assets/portfolio10.png';
+import IMG10 from '../../assets/portfolio10.png';
 import IMG11 from '../../assets/portfolio11.png';
 import IMG12 from '../../assets/portfolio12.png';
 import IMG13 from '../../assets/portfolio13.png';
-import IMG14 from '../../assets/portfolio14.png';
-// 4 : 3 image
+// import IMG14 from '../../assets/portfolio14.png';
 
 const data = [
   {
@@ -24,6 +21,14 @@ const data = [
     github: 'https://github.com/khoadodk/shop-tailwind',
     demo: 'https://shop-tailwind.myshopify.com',
     category: 'shopify',
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: 'WordPress Theme',
+    github: 'https://github.com/khoadodk/kd-university',
+    demo: 'http://socksmeme.com',
+    category: 'wordpress',
   },
   {
     id: 13,
@@ -57,13 +62,29 @@ const data = [
     demo: 'https://next-shopify-ruby.vercel.app',
     category: 'shopify',
   },
+  // {
+  //   id: 14,
+  //   image: IMG14,
+  //   title: 'Shopify Theme',
+  //   github: 'https://github.com/khoadodk/drake-related',
+  //   demo: 'https://theme-related.myshopify.com',
+  //   category: 'shopify',
+  // },
   {
-    id: 14,
-    image: IMG14,
-    title: 'Shopify Theme',
-    github: 'https://github.com/khoadodk/drake-related',
-    demo: 'https://theme-related.myshopify.com',
-    category: 'shopify',
+    id: 6,
+    image: IMG6,
+    title: 'Landin',
+    github: 'https://github.com/khoadodk/landin',
+    demo: 'https://kd-landin.netlify.app',
+    category: 'javascript',
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Qrispy',
+    github: 'https://github.com/khoadodk/qrispy',
+    demo: 'https://kd-qrispy.netlify.app',
+    category: 'javascript',
   },
   {
     id: 5,
@@ -88,15 +109,7 @@ const data = [
     github: 'https://github.com/khoadodk/cart-email',
     demo: 'https://cart-email.netlify.app',
     category: 'email',
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'WordPress Theme',
-    github: 'https://github.com/khoadodk/kd-learning',
-    demo: 'https://doinvestteam.com',
-    category: 'wordpress',
-  },
+  }
 ];
 
 const Portfolio = () => {
@@ -137,6 +150,12 @@ const Portfolio = () => {
           onClick={() => filterCat('wordpress')}
         >
           Wordpress
+        </button>
+        <button
+          className="btn btn-primary"
+          onClick={() => filterCat('javascript')}
+        >
+          Javascript
         </button>
         <button
           className="btn btn-primary"

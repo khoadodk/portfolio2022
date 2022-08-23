@@ -21,6 +21,25 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 40vh;
+}
+
+.portfolio__item-image img {
+    border-radius: 1.5rem;
+}
+
+.portfolio__item-image:hover img{
+    animation: imageScroll 7s linear;
+}
+
+@keyframes imageScroll{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+   
 }
 
 .portfolio__item h3 {
