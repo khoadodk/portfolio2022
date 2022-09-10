@@ -7,7 +7,7 @@ import IMG6 from '../../assets/portfolio6.png';
 import IMG7 from '../../assets/portfolio7.png';
 import IMG8 from '../../assets/portfolio8.png';
 import IMG9 from '../../assets/portfolio9.png';
-import IMG10 from '../../assets/portfolio10.png';
+// import IMG10 from '../../assets/portfolio10.png';
 import IMG11 from '../../assets/portfolio11.png';
 import IMG12 from '../../assets/portfolio12.png';
 import IMG13 from '../../assets/portfolio13.png';
@@ -15,6 +15,15 @@ import IMG15 from '../../assets/portfolio15.png';
 
 const data = [
   {
+    id: 12,
+    image: IMG12,
+    title: 'Headless Shopify',
+    github: 'https://github.com/khoadodk/next-shopify',
+    demo: 'https://next-shopify-ruby.vercel.app',
+    category: 'shopify',
+  },
+  {
+    
     id: 15,
     image: IMG15,
     title: 'WooCommerce Theme',
@@ -29,14 +38,6 @@ const data = [
     github: 'https://github.com/khoadodk/shop-tailwind',
     demo: 'https://shop-tailwind.myshopify.com',
     category: 'shopify',
-  },
-  {
-    id: 10,
-    image: IMG10,
-    title: 'WordPress Theme',
-    github: 'https://github.com/khoadodk/kd-university',
-    demo: 'http://socksmeme.com',
-    category: 'wordpress',
   },
   {
     id: 13,
@@ -61,14 +62,6 @@ const data = [
     github: 'https://github.com/khoadodk/k-studio',
     demo: 'https://k-studio.netlify.app',
     category: 'react',
-  },
-  {
-    id: 12,
-    image: IMG12,
-    title: 'Headless Shopify',
-    github: 'https://github.com/khoadodk/next-shopify',
-    demo: 'https://next-shopify-ruby.vercel.app',
-    category: 'shopify',
   },
   // {
   //   id: 14,
