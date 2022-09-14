@@ -54,7 +54,7 @@
 }
 .about__content p{
     margin: 2rem 0 2.6rem;
-    color: var(--light);
+    color: var(--white);
 }
 
 /* ===================== MEDIA QUERIES ======================= */

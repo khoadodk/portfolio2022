@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>2+ Working Years</small>
+              <small>3+ Working Years</small>
             </article>
 
             <article className="about__card">
@@ -34,11 +34,11 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>20+ Completed</small>
+              <small>30+ Completed</small>
             </article>
           </div> */}
           <p className="about__content">
-            I've been coding since 2018 just by accident while solving
+            I've been coding since 2018 while solving
             an issue for the company I was working for. I am hooked to
             it ever since.
             <br />
